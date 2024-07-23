@@ -1,0 +1,13 @@
+{
+  "name": "uniswap-v3-staker-subgraph",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph auth --studio {API_KEY} && graph deploy --studio {SUBGRAPH_NAME}"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.20.1",
+    "@graphprotocol/graph-ts": "0.20.1"
+  }
+}
